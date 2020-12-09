@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CustomAdapter"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/magnitude"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/text_view_drawable"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        />
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="72dp"
+    android:orientation="vertical"
+    android:layout_weight="2">
+
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#B4BAC0"
+        android:id="@+id/location1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:paddingTop="15dp"
+        android:textAllCaps="true"
+        android:paddingLeft="3dp"/>
+
+    <TextView
+        android:textColor="#2B3D4D"
+        android:textStyle="bold"
+        android:id="@+id/location2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:textSize="16sp" />
+</LinearLayout>
+
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"/>
+</LinearLayout>
